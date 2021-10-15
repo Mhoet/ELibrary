@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ELibrary.API.Data\ELibrary.API.Data.csproj" />
+    <ProjectReference Include="..\ELibrary.API.Model\ELibrary.API.Model.csproj" />
+    <ProjectReference Include="..\ELibrary.API.Services\ELibrary.API.Services.csproj" />
+    <ProjectReference Include="..\ELibrary.Common\ELibrary.Common.csproj" />
+  </ItemGroup>
+
+</Project>

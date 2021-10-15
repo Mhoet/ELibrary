@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+@model ELibrary.MVC.Model.DTO.ResponseDTO.LoginResponseDTO
+@using ELibrary.MVC.Model.DTO.ResponseDTO;
+@using System.Linq;
+<!-- Custom Jumbotron -->
+<div class="p-5 mb-5 bg-dark bg" style="height:500px; background-color:black; opacity:0.9">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold center-block center">“A reader lives a thousand lives before he dies . . . The man who never reads lives only one.”<br> - George R.R. Martin</h1>
+        <p class="col-md-8 fs-4">Want To Explore The Robust Multiverse of Books?</p>
+        <div class="btn btn-primary btn-lg" type="button"><a asp-controller="Book" asp-action="Index">Yes Please!</a></div>
+    </div>
+</div>
+
+<!-- Container -->
+<div class="container">
+
+    <div class="w-auto justify-content-between">
+        <p></p>
+        <p>All Categories</p>
+    </div>
+    <div class="row mb-5">
+        <div class="col-sm-6 col-lg-3 mb-sm-2">
+            <div class="card bg-primary">
+                <div class="card-body text-center">
+                    <p><i class='bx bxs-landscape' style="font-size:35px"></i></p>
+                    <h5>Science</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-sm-2">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                    <p><i class='bx bxs-notification' style="font-size:35px"></i></p>
+                    <h5>Folklore</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-sm-2">
+            <div class="card bg-gradient">
+                <div class="card-body text-center">
+                    <p><i class='bx bx-street-view' style="font-size:35px"></i></p>
+                    <h5>History</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-sm-2">
+            <div class="card bg-warning">
+                <div class="card-body text-center">
+                    <p><i class='bx bx-book-bookmark' style="font-size:35px"></i></p>
+                    <h5>Romance</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-auto text-center">
+            <h3>Featured Books</h3>
+        </div>
+    </div>
+    <div class="row">
+
+        @foreach (var bookData in (IEnumerable<BookResponseDTO>)ViewData["Featured"])
+        {
+
+            <div class="col-sm-6 col-lg-4">
+                <a href="Book/Details/@bookData.Id">
+                    <div class="card mb-3">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <img src="@bookData.ThumbnailUrl" style="width:100%" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">@bookData.Title</h5>
+                                    <h6><span class="badge bg-primary">Author - @bookData.Author</span></h6>
+                                    <p class="card-text">@bookData.ShortDescription</p>
+                                    <p class="card-text"><small class="text-muted">Published - @bookData.PublishedDate.ToString("MMMM yyy")</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+    <div class="row">
+        <div class="col-auto text-center">
+            <h3>Collections</h3>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var allData in (IEnumerable<BookResponseDTO>)ViewData["Books"])
+        {
+
+            <div class="col-sm-6 col-lg-4 mb-2">
+                <a href="Book/Details/@allData.Id">
+                    <div class="card border-0">
+                        <img src="@allData.ThumbnailUrl" style="height: 200px; width:100%; object-fit:contain" />
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@allData.Title</h5>
+                            <h6><span class="badge bg-primary">Author - @allData.Author</span></h6>
+                            <p class="card-text">@allData.ShortDescription</p>
+                            <p class="card-text"><small class="text-muted">Published - @allData.PublishedDate.ToString("MMMM yyy")</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p> <a asp-controller="Book" asp-action=""><i class='bx bx-right-arrow-alt'></i> All Books</a></p>
+        </div>
+    </div>
+    <!-- Captions -->
+    <div class="container py-md-6 py-4">
+        <div class="row justify-content-center">
+            <div class="col-xl-10">
+                <div class="lc-block mb-5">
+                    <div editable="rich">
+                        <h2 class="text-center rfs-20 fw-bolder">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse a lacus est. Etiam diam metus, lobortis </h2>
+                    </div>
+                </div>
+                <div class="row text-center text-md-start ">
+                    <div class=" col-md-6  ">
+                        <div class="lc-block">
+                            <div editable="rich">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus.&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="lc-block">
+                            <div editable="rich">
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus.&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

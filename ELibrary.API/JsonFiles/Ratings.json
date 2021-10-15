@@ -1,0 +1,26 @@
+[
+  {
+    "id": "eded27c0-705c-4568-8576-ee115a77f359",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "ab279526-be3a-4e90-9031-273916af235c",
+    "RatedValue": 45.58,
+    "CreatedAt": "2021-06-21",
+    "UpdatedAt": "2021-09-11"
+  },
+  {
+    "id": "72d7c6a4-cf56-485e-b291-fccc9efa8811",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "ff9686ec-d00e-480d-a7ae-f1050d6cd793",
+    "RatedValue": 81.01,
+    "CreatedAt": "2019-06-02",
+    "UpdatedAt": "2020-06-21"
+  },
+  {
+    "id": "ffb81410-4836-4a3c-af87-bfb988e2002f",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "22c08349-608d-49e3-a4ba-0e15857ebfa7",
+    "RatedValue": 47.87,
+    "CreatedAt": "2020-06-21",
+    "UpdatedAt": "2020-09-11"
+  }
+]

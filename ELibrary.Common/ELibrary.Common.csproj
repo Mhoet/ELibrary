@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ELibrary.API.Model\ELibrary.API.Model.csproj" />
+    <ProjectReference Include="..\ELibrary.API.Services\ELibrary.API.Services.csproj" />
+  </ItemGroup>
+
+</Project>

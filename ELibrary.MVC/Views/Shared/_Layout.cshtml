@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.min.custom.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="~/style.css">
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body style="margin-left:-5px; margin-right:-10px">
+    @if (ViewContext.RouteData.Values["Controller"].ToString() != "Auth")
+    {
+        @*Navigation*@
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Bookly</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        @if (ViewContext.RouteData.Values["Controller"].ToString() != "Home")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="">
+                                    Home
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </li>
+}
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Book" ? "active" : "") " asp-area="" asp-controller="Book" asp-action="">Books</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "About" ? "active" : "")" asp-area="" asp-controller="About" asp-action="">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class='bx bxs-user'></i></a>
+                            <div class="dropdown-menu">
+                                @if (ViewData["Name"] != null)
+                                {
+                                    <a class="dropdown-item"> <i class='bx bxs-user-circle'></i> @ViewData["Name"]</a>
+                                    <a class="dropdown-item" href="Auth/LogOut"> <i class='bx bx-log-out'></i> LogOut</a>
+                                }
+                                else
+                                {
+                                    <a class="dropdown-item" href="Auth/Login">Login</a>
+                                    <a class="dropdown-item" href="Auth/Register">Register</a>
+                                }
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>}
+    @*Main Container*@
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+    @*Footer*@
+    @if (ViewContext.RouteData.Values["Controller"].ToString() != "Auth")
+    {
+        <footer class="w-100 py-4 flex-shrink-0 bg-dark">
+            <div class="container py-4">
+                <div class="row gy-4 gx-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="h1 text-white">Bookly.</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Team B DecaDe</a></p>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-3">Quick links</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Get started</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-3">Quick links</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Get started</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-3">Newsletter</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        <form action="#">
+                            <div class="input-group mb-3">
+                                <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>}
+    </div>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

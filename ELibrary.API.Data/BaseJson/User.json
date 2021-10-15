@@ -1,0 +1,52 @@
+[
+  {
+    "id": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "FirstName": "Dell",
+    "LastName": "Broadley",
+    "Email": "dbroadley15@wikipedia.org",
+    "ImageUrl": "https://www.nykaa.com/media/wysiwyg/NYKA_INTBRCLO_Step1.jpg",
+    "Gender": "Female",
+    "CreatedAt": "12/09/2021",
+    "UpdatedAt": "19/09/2021"
+  },
+  {
+    "id": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "FirstName": "Keven",
+    "LastName": "Boeter",
+    "Email": "kboeter16@ovh.net",
+    "ImageUrl": "https://cdn4.iconfinder.com/data/icons/avatar-circle-1-1/72/89-512.png",
+    "Gender": "Male",
+    "CreatedAt": "12/09/2021",
+    "UpdatedAt": "19/09/2021"
+  },
+  {
+    "id": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "FirstName": "Dyanna",
+    "LastName": "Swatheridge",
+    "Email": "dswatheridge17@about.me",
+    "ImageUrl": "https://iugofi.com/admin/uploads/products/review-img.png",
+    "Gender": "Male",
+    "CreatedAt": "12/09/2021",
+    "UpdatedAt": "19/09/2021"
+  },
+  {
+    "id": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "FirstName": "Marvin",
+    "LastName": "Boettles",
+    "Email": "kboeer16@ovh.net",
+    "ImageUrl": "https://cdn4.iconfinder.com/data/icons/avatar-circle-1-1/72/89-512.png",
+    "Gender": "Male",
+    "CreatedAt": "12/09/2021",
+    "UpdatedAt": "19/09/2021"
+  },
+  {
+    "id": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "FirstName": "Dynnary",
+    "LastName": "Swatheridggy",
+    "Email": "dswatherid17@about.me",
+    "ImageUrl": "https://www.nykaa.com/media/wysiwyg/NYKA_INTBRCLO_Step1.jpg",
+    "Gender": "Female",
+    "CreatedAt": "12/09/2021",
+    "UpdatedAt": "19/09/2021"
+  }
+]

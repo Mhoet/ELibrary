@@ -1,0 +1,82 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{ViewData["Title"] = "Add User";}
+@model ELibrary.MVC.Model.DTO.RequestDTO.RegisterDTO
+
+<div class="container">
+
+    <div class="row ">
+        <div class="col-10 w-100 d-flex justify-content-center">
+            @using (Html.BeginForm("AddUser", "Admin", FormMethod.Post, new { novalidate = "true", @class = "needs-validation" }))
+            {
+
+                <div class="p-5">
+
+                    <p class="text-center">Register New User</p>
+                    @if (TempData["error"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @Html.TempData["error"].ToString();
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <div class="form-group mb-2">
+                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control has-validation", @placeholder = "FirstName", @required = "required" })
+                        @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "badge bg-danger" })
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="badge bg-danger">@ViewBag.error</span>
+                        }
+                    </div>
+                    <div class="form-group mb-2">
+                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control has-validation", @placeholder = "LastName", @required = "required" })
+                        @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "badge bg-danger" })
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="badge bg-danger">@ViewBag.error</span>
+                        }
+                    </div>
+                    <div class="form-group mb-2">
+                        @Html.DropDownListFor(m => m.Gender, new SelectList(Enum.GetValues(typeof(ELibrary.MVC.Model.DTO.Gender))), "Select Gender", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Gender, "", new { @class = "badge bg-danger" })
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="invalid-feedback">@ViewBag.error</span>
+                        }
+                    </div>
+                    <div class="form-group mb-2">
+                        @Html.TextBoxFor(x => x.Email, new { @class = "form-control has-validation", @placeholder = "Email", @required = "required" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "badge bg-danger" })
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="badge bg-danger">@ViewBag.error</span>
+                        }
+                    </div>
+                    <div class="form-group mb-2">
+                        @Html.PasswordFor(x => x.Password, new { @class = "form-control has-validation", @placeholder = "Password", @required = "required" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "badge bg-danger" })
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="badge bg-danger">@ViewBag.error</span>
+                        }
+                    </div>
+                    <div class="form-group mb-2">
+                        @Html.PasswordFor(x => x.ConfirmPassword, new { @class = "form-control has-validation", @placeholder = "Confirm Password", @required = "required" })
+                        @Html.ValidationMessageFor(m => m.ConfirmPassword, string.Empty, new { @class = "badge bg-danger" })
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="badge bg-danger">@ViewBag.error</span>
+                        }
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" name="submit" class="btn btn-primary w-100" value="Register" />
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</div>

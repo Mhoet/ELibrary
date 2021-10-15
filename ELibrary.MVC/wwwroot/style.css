@@ -1,0 +1,27 @@
+.bg {
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(19, 4, 59, 0.664), rgba(18, 3, 73, 0.411)), url(static/img/covers01.jpg);
+    background-size: cover;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+}
+
+.main {
+    display: block;
+}
+
+.set {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "fbf6a1ff-02bc-405f-ace9-f9b818ef8126",
+    "MainCategoryId": "fbf6a1ff-02bc-405f-ace9-f9b818ef8126",
+    "Name": "Folklore",
+    "Description": "scale transparent deliverables",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "1b448fba-016d-4f63-9316-bc3e0485870c",
+    "MainCategoryId": "fbf6a1ff-02bc-405f-ace9-f9b818ef8126",
+    "Name": "True Life Story",
+    "Description": "seize granular functionalities",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "692171f0-64a6-45b3-80f8-9621cb8bdf17",
+    "MainCategoryId": "fbf6a1ff-02bc-405f-ace9-f9b818ef8126",
+    "Name": "Non-Fiction",
+    "Description": "drive user-centric communities",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "acdf69f2-6e7b-4b21-9f4b-cce8e4c38140",
+    "MainCategoryId": "fbf6a1ff-02bc-405f-ace9-f9b818ef8126",
+    "Name": "Fiction",
+    "Description": "extend B2B schemas",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "09119ee1-3d03-4a15-a57a-05deab4f3399",
+    "MainCategoryId": "fbf6a1ff-02bc-405f-ace9-f9b818ef8126",
+    "Name": "Science Fiction",
+    "Description": "deploy best-of-breed systems",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "bee6be2d-081a-4b02-b71e-391792770fad",
+    "MainCategoryId": "1b448fba-016d-4f63-9316-bc3e0485870c",
+    "Name": "Prose",
+    "Description": "e-enable bricks-and-clicks metrics",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "3963f06c-4fe7-4be9-bce8-3a7e7134493b",
+    "MainCategoryId": "1b448fba-016d-4f63-9316-bc3e0485870c",
+    "Name": "Comedy",
+    "Description": "iterate B2B initiatives",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "72d10c30-018c-4f3d-a7fb-69f96ae42cca",
+    "MainCategoryId": "1b448fba-016d-4f63-9316-bc3e0485870c",
+    "Name": "Drama",
+    "Description": "matrix out-of-the-box initiatives",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "a21dc022-e7f2-4da8-a249-4cb8744ca0e3",
+    "MainCategoryId": "1b448fba-016d-4f63-9316-bc3e0485870c",
+    "Name": "Romance",
+    "Description": "orchestrate ubiquitous mindshare",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  },
+  {
+    "id": "b8a339a9-056b-47b0-ba25-582c0cbc1473",
+    "MainCategoryId": "1b448fba-016d-4f63-9316-bc3e0485870c",
+    "Name": "History",
+    "Description": "monetize interactive schemas",
+    "CreatedAt": "2020-09-13",
+    "UpdatedAt": "2021-09-20"
+  }
+]

@@ -1,0 +1,124 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Books Details";
+
+}
+@using ELibrary.MVC.Model.DTO.ResponseDTO;
+@model BookResponseDTO
+
+<div class="container">
+    <div class="row align-items-md-stretch pt-5 mb-5">
+        <div class="col-md-4 col-sm-6 mb-5">
+            <div class="d-flex">
+                <img class="img-fluid" style="width: 100%" src="@ViewData["ThumbnailUrl"]" alt="Book.Name">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <h1 class="text-white">@ViewData["BookTitle"]</h1>
+            </div>
+            <div class="row">
+                <p><span class="badge bg-primary"> @ViewData["Author"]</span></p>
+            </div>
+            <div class="row mb-5">
+                <label class="text-white">Available Formats</label>
+                <div class="col-sm-6 col-md-6 d-flex justify-content-between">
+                    <button class="btn btn-lg btn-outline-info text-center" style="width: 10rem;text-align: left; font-size: 25px; padding-left: 5px;">
+                        <i class='bx bxs-radio'></i><br />
+                        <p>Audio</p>
+                    </button>
+                    <button class="btn btn-lg  btn-primary text-center" style="width: 10rem; text-align: left;margin-left: 20px; font-size: 25px;">
+                        <i class='bx bx-text'></i><br /><p>Text</p>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-between mb-5">
+                        <button class="btn btn-primary w-100 h-25">
+                            <i class='bx bx-book-open'></i>
+                            Read
+                        </button>
+                        <button class="btn btn-warning  w-100 h-25">
+                            <i class='bx bx-download'></i>
+                            Download
+                        </button>
+                    </div>
+                    <div class="row mb-2">
+                        <h3 class="h3 mb-2 text-white">Description</h3>
+
+                        <p class="text-white-50">
+                            @ViewData["LongDescription"]
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-2">
+                <div class="col-md-6">
+                    <div class="col">
+                        <h3 class="h3 mb-2 text-white">Product Details</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" style="text-align: right;"><span class="badge bg-primary">Publisher</span></div>
+                        <div class="col text-white-50" style="text-align: left;">@ViewData["Publisher"]</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="text-align: right;"><span class="badge bg-primary">Publish Date</span></div>
+                        <div class="col text-white-50" style="text-align: left;">@ViewData["PublishedDate"]</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="text-align: right;"><span class="badge bg-primary">Language</span></div>
+                        <div class="col text-white-50" style="text-align: left;">English</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="text-align: right;"><span class="badge bg-primary">Type</span></div>
+                        <div class="col text-white-50" style="text-align: left;">Audio</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col" style="text-align: right;"><span class="badge bg-primary">ISBN</span></div>
+                        <div class="col text-white-50" style="text-align: left;">@ViewData["ISBN"]</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="mb-8">
+                    <h3 class="h3 mb-2 text-white">About the Author</h3>
+                    <div class="space-y-4 show-lists text-white-50">
+                        @ViewData["LongDescription"]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+                <div class="headings d-flex justify-content-between align-items-center mb-3">
+                    <h5>Recent Reviews</h5>
+                    <div class="btn btn-primary">Add Review</div>
+                </div>
+                <div class="card p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <img src="https://i.imgur.com/hczKIze.jpg" width="30" class="rounded-circle mx-2">
+                            <span><small class="font-weight-bold text-primary"> Paul Kunle</small></span>
+                        </div>
+                        <small>2 days ago</small>
+                    </div>
+                    <div class="row">
+                        <div class="12">
+                            <small class="text-white-50 pl-4">
+                                Hmm, This poster looks cool
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

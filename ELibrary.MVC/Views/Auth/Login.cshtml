@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Login";
+    @model ELibrary.MVC.Model.DTO.RequestDTO.LoginDTO
+}
+<div class="set bg">
+    <main class="form-signin bg-dark p-5">
+        @using (Html.BeginForm("Login", "Auth", FormMethod.Post, new { novalidate = "true", @class = "needs-validation" }))
+        {
+
+            <div class="row">
+                <div class="col-4 mx-auto">
+                    <h1 class="h3 mb-1 fw-normal text-center"><i class='bx bx-book-reader' style="font-size:50px"></i></h1>
+                    <h2 class="text-primary">Bookly</h2>
+                </div>
+            </div>
+            <h1 class="h3 mb-3 fw-normal text-center">Please sign in</h1>
+
+            <div class="form-group mb-2">
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control has-validation", @placeholder = "Email", @required = "required" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "badge bg-danger" })
+                @if (ViewBag.error != null)
+                {
+                    <span class="badge bg-danger">@ViewBag.error</span>
+                }
+            </div>
+            <div class="form-group mb-2">
+                @Html.PasswordFor(x => x.Password, new { @class = "form-control has-validation", @placeholder = "Password", @required = "required" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "badge bg-danger" })
+                @if (ViewBag.error != null)
+                {
+                    <span class="badge bg-danger">@ViewBag.error</span>
+                }
+            </div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <div class="form">
+                <button class="w-100 btn btn-primary" type="submit" value="Login">Login</button>
+                <div class="d-flex justify-content-between mt-2">
+                    <p>Dont have an account?</p>
+                    <p><a asp-area="" asp-controller="Auth" asp-action="Register">Register <i class='bx bx-right-arrow-alt'></i></a></p>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <p><a asp-area="" asp-controller="Home" asp-action=""><i class='bx bx-arrow-back'></i> Home</a></p>
+                </div>
+            </div>@if (TempData["error"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @Html.TempData["error"].ToString()
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+        }
+    </main>
+</div>

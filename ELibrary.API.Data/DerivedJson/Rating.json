@@ -1,0 +1,482 @@
+[
+  {
+    "id": "279e3051-ff83-4b0e-840e-9cb15e212d8e",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "e97748c1-ea12-45c3-87c2-ca8618f4371b",
+    "CreatedAt": "10/12/2019",
+    "UpdatedAt": "06/08/2021",
+    "RatedValue": 15.6
+  },
+  {
+    "id": "16aec3a5-8d99-4f1d-833e-360df750f076",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "80a0d65d-b310-462a-ab56-2e36d0aadcc9",
+    "CreatedAt": "25/10/2019",
+    "UpdatedAt": "10/08/2021",
+    "RatedValue": 31.57
+  },
+  {
+    "id": "f33bbb81-c585-4d16-805c-b49002f80c39",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "a162e806-c1bd-4ca0-9f7e-1888723fb189",
+    "CreatedAt": "21/03/2019",
+    "UpdatedAt": "30/05/2021",
+    "RatedValue": 13.33
+  },
+  {
+    "id": "5b58a64e-433c-4fca-b392-c64fb61b3493",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "0be3b056-d6db-48cf-9dd0-0da03ee3f8d0",
+    "CreatedAt": "23/05/2019",
+    "UpdatedAt": "22/06/2021",
+    "RatedValue": 15.74
+  },
+  {
+    "id": "0cf50db8-a8c0-4397-8445-4ff90535d5d4",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "78048872-e59e-4cce-a723-a56950ef2527",
+    "CreatedAt": "29/02/2020",
+    "UpdatedAt": "25/09/2020",
+    "RatedValue": 83.96
+  },
+  {
+    "id": "0272ba54-c206-445c-b708-cd91b4685a3b",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "03ea3fe2-23a9-4906-8843-c9bab9ebd184",
+    "CreatedAt": "24/09/2019",
+    "UpdatedAt": "22/11/2020",
+    "RatedValue": 90.95
+  },
+  {
+    "id": "df8646b7-d341-4d55-b4c2-fc188698516f",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "73e18f8d-9473-41fd-872a-a01034e58c72",
+    "CreatedAt": "16/04/2020",
+    "UpdatedAt": "15/11/2020",
+    "RatedValue": 72.78
+  },
+  {
+    "id": "00125c4e-5817-42f8-98da-0b1e49f3025e",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "69923df9-4369-4224-948b-7f0748925952",
+    "CreatedAt": "01/07/2019",
+    "UpdatedAt": "18/02/2021",
+    "RatedValue": 93.41
+  },
+  {
+    "id": "f4a60012-9775-4ffa-8081-d4098f5c56c4",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "f209e90f-65f7-4e54-8013-dfe690887490",
+    "CreatedAt": "27/12/2019",
+    "UpdatedAt": "22/05/2021",
+    "RatedValue": 54.82
+  },
+  {
+    "id": "36d36b3b-241c-4123-ac86-ae37649744bd",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "30e4dc57-37c6-47eb-a409-86a565d16340",
+    "CreatedAt": "03/03/2020",
+    "UpdatedAt": "30/12/2020",
+    "RatedValue": 29.97
+  },
+  {
+    "id": "8e4893d9-d9ce-4a78-99b2-76313a902475",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "ff5849ed-293b-4a4f-9f15-e0127aa071e4",
+    "CreatedAt": "27/03/2019",
+    "UpdatedAt": "24/06/2021",
+    "RatedValue": 80.15
+  },
+  {
+    "id": "2578cc24-dc67-4549-a840-3a1bf6123bc3",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "72908d9d-1260-4d5b-a6a6-3b8d02d3dc7e",
+    "CreatedAt": "14/01/2020",
+    "UpdatedAt": "13/08/2021",
+    "RatedValue": 73.05
+  },
+  {
+    "id": "eb8a7eb8-864b-4ee9-b10e-8393bab75285",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "f2d24c56-8496-4a29-8a73-7ae93107a245",
+    "CreatedAt": "13/05/2019",
+    "UpdatedAt": "02/10/2020",
+    "RatedValue": 99.06
+  },
+  {
+    "id": "e1b677be-9a2c-4d32-bd9f-74ff680c3d83",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "71797f11-044b-4d0b-8501-efef0a2c753b",
+    "CreatedAt": "16/08/2019",
+    "UpdatedAt": "03/10/2020",
+    "RatedValue": 52.89
+  },
+  {
+    "id": "4c16c647-f240-4afd-b47b-24b343c12eff",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "a2223586-8908-4f27-a291-28989bcc53b3",
+    "CreatedAt": "08/01/2020",
+    "UpdatedAt": "27/07/2021",
+    "RatedValue": 82.5
+  },
+  {
+    "id": "ed9c58c1-0f49-4d20-9ccc-5efb22cfc4ed",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "b4babf75-bef7-40e3-a542-c3aa7cf2cba3",
+    "CreatedAt": "30/07/2019",
+    "UpdatedAt": "27/03/2021",
+    "RatedValue": 19.81
+  },
+  {
+    "id": "c81b30f4-3d79-4d6b-b7da-2cbfa9359e03",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "8aee931d-9acb-4dda-a3d0-684c67e55cea",
+    "CreatedAt": "04/10/2019",
+    "UpdatedAt": "16/01/2021",
+    "RatedValue": 29.49
+  },
+  {
+    "id": "bf81c09a-e488-4639-baae-c56e13a12b09",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "6ec668f6-03ef-4cd5-84c4-c1d4b6c806a4",
+    "CreatedAt": "02/06/2019",
+    "UpdatedAt": "09/10/2020",
+    "RatedValue": 50.89
+  },
+  {
+    "id": "4e335563-d41b-4767-a4db-f4d11ff4c374",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "dd6e4dcf-5b9e-4725-9fcc-f8ec1ce01097",
+    "CreatedAt": "09/11/2019",
+    "UpdatedAt": "23/07/2021",
+    "RatedValue": 98.88
+  },
+  {
+    "id": "1be872ba-c798-43b8-8ffa-ff96ff1e10a7",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "51e94a5e-3a6b-4cb9-af2f-9e775776d7d0",
+    "CreatedAt": "05/02/2020",
+    "UpdatedAt": "03/10/2020",
+    "RatedValue": 40.99
+  },
+  {
+    "id": "9fe17c68-4e08-4371-b244-258a2db4a802",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "d558d993-1553-4ad3-be97-afba864d3e7c",
+    "CreatedAt": "12/08/2019",
+    "UpdatedAt": "22/07/2021",
+    "RatedValue": 33.21
+  },
+  {
+    "id": "757d1860-6159-42a4-8e98-4c5e497aa93e",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "dd07ccde-a72b-4a0e-a253-b279e970aeb7",
+    "CreatedAt": "06/04/2020",
+    "UpdatedAt": "29/05/2021",
+    "RatedValue": 89.82
+  },
+  {
+    "id": "23574766-4107-4a17-ab4a-4a08e3e5f942",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "57e45410-9ee8-4ec9-9f7b-ac6da41acbfc",
+    "CreatedAt": "24/08/2019",
+    "UpdatedAt": "09/04/2021",
+    "RatedValue": 33.52
+  },
+  {
+    "id": "361a6b86-4085-4843-81f8-a134a1f278d1",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "9c4308d3-7f3e-44c9-aed5-f0e5ce1be724",
+    "CreatedAt": "06/10/2019",
+    "UpdatedAt": "16/09/2021",
+    "RatedValue": 87.68
+  },
+  {
+    "id": "b74579cd-8bc5-404e-a3f8-44f8000daf11",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "5671eead-423c-4ee6-90c0-0dab3ddf885e",
+    "CreatedAt": "01/02/2020",
+    "UpdatedAt": "17/03/2021",
+    "RatedValue": 88.0
+  },
+  {
+    "id": "1394a4f3-36e3-49b9-b9d8-dc5852ea6198",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "781043b7-22b6-4c96-92e1-004d73f33317",
+    "CreatedAt": "11/11/2019",
+    "UpdatedAt": "21/11/2020",
+    "RatedValue": 18.34
+  },
+  {
+    "id": "2022918e-5773-48a7-a7c6-8df4124cc04b",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "5b930976-7508-43f4-af1e-ed5891aa75bd",
+    "CreatedAt": "21/05/2019",
+    "UpdatedAt": "23/02/2021",
+    "RatedValue": 50.75
+  },
+  {
+    "id": "a244c1fa-db62-4e64-8a21-1c34a3b7508a",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "8c958c1b-2c46-4ea0-a5be-863060203b83",
+    "CreatedAt": "28/10/2019",
+    "UpdatedAt": "18/09/2021",
+    "RatedValue": 91.59
+  },
+  {
+    "id": "3ec825e2-2cfa-4090-b0b0-3f4a1f16a551",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "3ade9104-55fe-403f-a3b5-3be6c7480c3d",
+    "CreatedAt": "27/01/2020",
+    "UpdatedAt": "20/11/2020",
+    "RatedValue": 69.75
+  },
+  {
+    "id": "c8e82586-1238-4192-93b6-2d023196474a",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "03b4369d-90b2-4aba-968c-05f889a60074",
+    "CreatedAt": "02/02/2020",
+    "UpdatedAt": "03/09/2021",
+    "RatedValue": 79.86
+  },
+  {
+    "id": "ff798ded-5bf5-4683-8235-b3ffd297d5b1",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "e97748c1-ea12-45c3-87c2-ca8618f4371b",
+    "CreatedAt": "03/03/2020",
+    "UpdatedAt": "15/11/2020",
+    "RatedValue": 64.56
+  },
+  {
+    "id": "52cb35b0-699c-4cd1-8f76-fa484a651b84",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "80a0d65d-b310-462a-ab56-2e36d0aadcc9",
+    "CreatedAt": "23/05/2019",
+    "UpdatedAt": "03/02/2021",
+    "RatedValue": 83.52
+  },
+  {
+    "id": "af3750e3-c5b0-4e11-98f0-91743c1a239e",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "a162e806-c1bd-4ca0-9f7e-1888723fb189",
+    "CreatedAt": "05/06/2019",
+    "UpdatedAt": "13/01/2021",
+    "RatedValue": 50.08
+  },
+  {
+    "id": "a9e03e00-854d-49e7-9903-e6f4f7d7d598",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "0be3b056-d6db-48cf-9dd0-0da03ee3f8d0",
+    "CreatedAt": "29/03/2020",
+    "UpdatedAt": "11/01/2021",
+    "RatedValue": 70.54
+  },
+  {
+    "id": "6ca6ecdc-25a4-4508-b55f-8c67f9376502",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "78048872-e59e-4cce-a723-a56950ef2527",
+    "CreatedAt": "11/09/2019",
+    "UpdatedAt": "13/02/2021",
+    "RatedValue": 27.57
+  },
+  {
+    "id": "d61232d6-2d85-405f-aae6-13171a811e38",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "03ea3fe2-23a9-4906-8843-c9bab9ebd184",
+    "CreatedAt": "09/07/2019",
+    "UpdatedAt": "11/07/2021",
+    "RatedValue": 48.47
+  },
+  {
+    "id": "8d9fbdc0-83c7-4ffc-a45c-e5e6e5280fb3",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "73e18f8d-9473-41fd-872a-a01034e58c72",
+    "CreatedAt": "01/04/2019",
+    "UpdatedAt": "25/01/2021",
+    "RatedValue": 56.64
+  },
+  {
+    "id": "c67fddf4-f08c-4bfd-a5c1-3c965a700ec7",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "69923df9-4369-4224-948b-7f0748925952",
+    "CreatedAt": "21/12/2019",
+    "UpdatedAt": "01/07/2021",
+    "RatedValue": 56.31
+  },
+  {
+    "id": "44abdb97-d043-491f-8346-4218fbe8a356",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "f209e90f-65f7-4e54-8013-dfe690887490",
+    "CreatedAt": "01/08/2019",
+    "UpdatedAt": "03/12/2020",
+    "RatedValue": 14.8
+  },
+  {
+    "id": "b737957c-c646-4430-b2de-bc46bddbf1b6",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "30e4dc57-37c6-47eb-a409-86a565d16340",
+    "CreatedAt": "17/03/2020",
+    "UpdatedAt": "17/10/2020",
+    "RatedValue": 40.13
+  },
+  {
+    "id": "946a3298-44eb-41fc-b5b5-e250a9fdd109",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "ff5849ed-293b-4a4f-9f15-e0127aa071e4",
+    "CreatedAt": "23/04/2019",
+    "UpdatedAt": "05/04/2021",
+    "RatedValue": 81.54
+  },
+  {
+    "id": "e54b1c55-7049-4445-9668-88c75e3b870c",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "72908d9d-1260-4d5b-a6a6-3b8d02d3dc7e",
+    "CreatedAt": "01/02/2020",
+    "UpdatedAt": "30/07/2021",
+    "RatedValue": 24.18
+  },
+  {
+    "id": "b7cc1c07-2f32-4671-b36a-36c5577bc722",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "f2d24c56-8496-4a29-8a73-7ae93107a245",
+    "CreatedAt": "04/11/2019",
+    "UpdatedAt": "22/10/2020",
+    "RatedValue": 14.84
+  },
+  {
+    "id": "b5f93133-cbec-419a-8408-b2c1435f7781",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "71797f11-044b-4d0b-8501-efef0a2c753b",
+    "CreatedAt": "03/02/2020",
+    "UpdatedAt": "31/10/2020",
+    "RatedValue": 89.82
+  },
+  {
+    "id": "725a259e-f538-4dba-a039-88371c762c9e",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "a2223586-8908-4f27-a291-28989bcc53b3",
+    "CreatedAt": "10/06/2019",
+    "UpdatedAt": "07/06/2021",
+    "RatedValue": 60.78
+  },
+  {
+    "id": "bb6eee38-b47f-4c3b-aa9a-406a6e26963f",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "b4babf75-bef7-40e3-a542-c3aa7cf2cba3",
+    "CreatedAt": "18/03/2019",
+    "UpdatedAt": "01/05/2021",
+    "RatedValue": 48.82
+  },
+  {
+    "id": "f7a65431-14ac-4066-9d66-2472b0dc6fb8",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "8aee931d-9acb-4dda-a3d0-684c67e55cea",
+    "CreatedAt": "12/12/2019",
+    "UpdatedAt": "14/05/2021",
+    "RatedValue": 23.09
+  },
+  {
+    "id": "e75624a3-064f-4e03-860b-e5706a8f3df3",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "6ec668f6-03ef-4cd5-84c4-c1d4b6c806a4",
+    "CreatedAt": "07/05/2020",
+    "UpdatedAt": "15/04/2021",
+    "RatedValue": 91.19
+  },
+  {
+    "id": "b04c210f-be60-48c1-b7d5-2ece4e57c9cd",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "dd6e4dcf-5b9e-4725-9fcc-f8ec1ce01097",
+    "CreatedAt": "03/10/2019",
+    "UpdatedAt": "02/12/2020",
+    "RatedValue": 12.88
+  },
+  {
+    "id": "8dd02731-09c9-475f-b3fa-e2e5ab8df2eb",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "51e94a5e-3a6b-4cb9-af2f-9e775776d7d0",
+    "CreatedAt": "25/07/2019",
+    "UpdatedAt": "17/07/2021",
+    "RatedValue": 30.57
+  },
+  {
+    "id": "03fc95aa-d14f-41e2-8cfa-380c73e5c453",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "d558d993-1553-4ad3-be97-afba864d3e7c",
+    "CreatedAt": "15/03/2020",
+    "UpdatedAt": "16/02/2021",
+    "RatedValue": 29.11
+  },
+  {
+    "id": "79e1aa02-9b35-46e8-b6e6-91477b6847e0",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "dd07ccde-a72b-4a0e-a253-b279e970aeb7",
+    "CreatedAt": "30/03/2019",
+    "UpdatedAt": "08/05/2021",
+    "RatedValue": 13.95
+  },
+  {
+    "id": "d9f94ec8-551b-4108-bdee-aa8b68db64c8",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "57e45410-9ee8-4ec9-9f7b-ac6da41acbfc",
+    "CreatedAt": "20/07/2019",
+    "UpdatedAt": "08/01/2021",
+    "RatedValue": 91.67
+  },
+  {
+    "id": "e3b429d6-4e16-4fef-9646-7dd4e8154443",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "9c4308d3-7f3e-44c9-aed5-f0e5ce1be724",
+    "CreatedAt": "24/08/2019",
+    "UpdatedAt": "09/03/2021",
+    "RatedValue": 32.64
+  },
+  {
+    "id": "16a5266c-65a1-4743-9e06-b80a5b32d0e7",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "5671eead-423c-4ee6-90c0-0dab3ddf885e",
+    "CreatedAt": "18/03/2020",
+    "UpdatedAt": "30/01/2021",
+    "RatedValue": 28.79
+  },
+  {
+    "id": "2522c1c9-b580-4162-bb2c-4c9079e43766",
+    "UserId": "6a1696ae-d6ff-4f22-bc55-0455c0a598f6",
+    "BookId": "781043b7-22b6-4c96-92e1-004d73f33317",
+    "CreatedAt": "19/05/2019",
+    "UpdatedAt": "26/07/2021",
+    "RatedValue": 84.8
+  },
+  {
+    "id": "857b32a3-f92c-49ad-9583-39e2e899b379",
+    "UserId": "930c04d2-12ca-41ef-91c9-0084af2bc695",
+    "BookId": "5b930976-7508-43f4-af1e-ed5891aa75bd",
+    "CreatedAt": "29/03/2020",
+    "UpdatedAt": "14/11/2020",
+    "RatedValue": 93.63
+  },
+  {
+    "id": "4e36f51d-286c-4801-a238-76ca8fd83965",
+    "UserId": "4c3f57f7-6451-443b-bfc6-1afc9a0e37e8",
+    "BookId": "8c958c1b-2c46-4ea0-a5be-863060203b83",
+    "CreatedAt": "27/10/2019",
+    "UpdatedAt": "19/12/2020",
+    "RatedValue": 52.46
+  },
+  {
+    "id": "4ab28f57-19a6-4db7-90cf-18b245bb3240",
+    "UserId": "930c04d2-321-41ef-91c9-0084af2bc695",
+    "BookId": "3ade9104-55fe-403f-a3b5-3be6c7480c3d",
+    "CreatedAt": "19/03/2020",
+    "UpdatedAt": "03/07/2021",
+    "RatedValue": 47.95
+  },
+  {
+    "id": "f44c81f5-92e8-44e9-902e-d857cd096305",
+    "UserId": "4c3f57f7-8976-443b-bfc6-1afc9a0e37e8",
+    "BookId": "03b4369d-90b2-4aba-968c-05f889a60074",
+    "CreatedAt": "21/07/2019",
+    "UpdatedAt": "21/03/2021",
+    "RatedValue": 86.35
+  }
+]

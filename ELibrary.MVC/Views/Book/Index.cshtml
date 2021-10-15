@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@*@model IEnumerable<ConsumingWebAapiRESTinMVC.Models.Employee>*@
+@{
+    ViewData["Title"] = "All Books";
+}
+@using ELibrary.MVC.Model.DTO.ResponseDTO;
+<div class="container">
+    <div class="px-4 py-5 text-center bg-gradient">
+        <i class='bx bx-book-reader' style="font-size:50px"></i>
+        <h1 class="display-5 fw-bold">Bookly</h1>
+        <div class="col-lg-6 mx-auto">
+            <div class="input-group mx-auto g-1 justify-content-center">
+                <input id="search-input" type="search" class="form-control-lg" />
+                <button id="search-button" type="button" class="btn btn-lg btn-primary">
+                    <i class='bx bx-search-alt-2'></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-auto text-center">
+            <h3>All Books</h3>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var allData in (IEnumerable<BookResponseDTO>)ViewData["AllBooks"])
+        {
+
+            <div class="col-sm-6 col-lg-4 mb-2">
+                <a href="Book/Details/@allData.Id">
+                    <div class="card border-0">
+                        <img src="@allData.ThumbnailUrl" style="height: 200px; width:100%; object-fit:contain" />
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@allData.Title</h5>
+                            <h6><span class="badge bg-primary">Author - @allData.Author</span></h6>
+                            <p class="card-text">@allData.ShortDescription</p>
+                            <p class="card-text"><small class="text-muted">Published - @allData.PublishedDate.ToString("MMMM yyy")</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>
